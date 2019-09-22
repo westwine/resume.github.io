@@ -1,0 +1,267 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<title>Home</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<script type="text/javascript"> 
+	addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); 
+	function hideURLbar(){ window.scrollTo(0,1); } 
+</script>
+<link href="css/bootstrap.css" rel='stylesheet' type='text/css' />
+<!-- Custom Theme files -->
+<link href="css/style.css" rel='stylesheet' type='text/css' />	
+<script src="js/jquery-1.11.1.min.js"></script>
+<!--webfonts-->
+   <link href='http://fonts.useso.com/css?family=Open+Sans:300italic,400italic,600italic,400,300,600,700|Six+Caps' rel='stylesheet' type='text/css'>
+<!--//webfonts-->
+</head>
+<body>
+<!--start-home-->
+	<div class="header">
+		<div class="banner" id="home">
+			<div class="container">
+					<div class="logo">
+						<a href="coursework.html"><h1 >代步梯<br>设计</h1><h6>课程设计第二次答辩<br>组员：叶水金<br>陶辰越<br>肖显子</h6></a>
+					</div>
+
+			<div  id="top" class="callbacks_container">
+					<ul class="rslides" id="slider4">
+					<li>
+								<div class="banner-info">
+									<h3>总体方案</h3>
+								</div>
+							</li>
+							<li>
+								<div class="banner-info">
+								   <h3>方案分析</h3>
+								</div>
+							</li>
+							<li>
+								<div class="banner-info">
+									<h3>最终方案</h3>
+								</div>								
+                            </li>
+                            <li>
+								<div class="banner-info">
+									<h3>组员分工</h3>
+								</div>								
+							</li>
+						</ul>
+					</div>
+					<!--- banner Slider starts Here --->
+	  			<script src="js/responsiveslides.min.js"></script>
+			 <script>
+			    // You can also use "$(window).load(function() {"
+			    $(function () {
+			      // Slideshow 4
+			      $("#slider4").responsiveSlides({
+			        auto: true,
+			        pager: true,
+			        nav: true,
+			        speed: 500,
+			        namespace: "callbacks",
+			        before: function () {
+			          $('.events').append("<li>before event fired.</li>");
+			        },
+			        after: function () {
+			          $('.events').append("<li>after event fired.</li>");
+			        }
+			      });
+			
+			    });
+			  </script>
+				</div>
+			</div>
+	 <div class="header-bottom">
+	  <div class="fixed-header">
+			<span class="menu"> </span>
+			<div class="top-menu">
+			<nav class="cl-effect-21">
+				<ul>
+					<li><a class="active scroll" href="#home">Home</a></li>
+					<li><a class="scroll" href="#plan">总体方案</a></li>
+					<li><a class="scroll" href="#analysis">方案分析</a></li>
+					<li><a class="scroll" href="#final_plan">最终方案</a></li>
+					<li><a class="scroll" href="#team_work">组员分工</a></li>				
+					<div class="clearfix"></div>
+				</ul>
+			</nav>		
+			</div>
+					<div class="clearfix"></div>
+		<!-- script for menu -->
+			<script>
+				$( "span.menu" ).click(function() {
+				  $( ".top-menu" ).slideToggle( "slow", function() {
+				    // Animation complete.
+				  });
+				});
+			</script>
+			<!-- script for menu -->
+			<script>
+                $(document).ready(function() {
+                    var navoffeset=$(".header-bottom").offset().top;
+                    $(window).scroll(function(){
+                        var scrollpos=$(window).scrollTop(); 
+                        if(scrollpos >=navoffeset){
+                            $(".header-bottom").addClass("fixed");
+                        }else{
+                            $(".header-bottom").removeClass("fixed");
+                        }
+                    });
+                    
+                });
+		    </script>
+	 </div>
+	 </div>
+	</div>
+
+<!--/plan   总体方案-->
+	<div class="service-section" id="plan"">
+		<div class="container" >
+            <h3>总体方案</h3>
+            	<br><br>	
+			
+			<div class="col-md-6 service-grid">
+					<div class="icon">
+						<i class="s1"> </i>
+					</div>
+					<div class="icon-text">
+						<h4>布置方案</h4>
+						<p></p>
+					</div>
+					<div class="clearfix"> </div>
+                </div>
+			<div class="clearfix"></div>
+            <p>主要解决人、代步梯、环境之间的交互，保证安全性，合理的分配空间，互不干扰。<br>
+                设计面向行动不便者,考虑到适用人群的多样性,需设计站立和座椅两种乘坐方式,同时需提供固定装置,方便
+                乘坐轮椅使用者。上行下行过程中,座椅侧向,方便乘坐,座椅需是活动式的,提供空间。站立提供把手,可与座椅把手
+                分时复用。导轨与楼梯平行,并延长一部分,上下扶梯方便。导轨安装在墙体一侧,留出空间,稳定牢固。电机,用电为220v,
+                安装在导轨两端。
+
+                
+            </p>
+            <img src="../img/plan.jpg" alt="好像没图片" style="margin-left: 25%" />
+            
+            
+            <div class="col-md-6 service-grid">
+				    <div class="icon">
+						<i class="s3"> </i>
+					</div>
+					<div class="icon-text">
+						<h4>传动方案</h4>
+						<p></p>
+					</div>
+                    <div class="clearfix"> </div>
+                    <h4>齿轮齿条</h4>
+                    <p>齿轮传动用来传递任意两轴间的运动和动力</p><br>
+                    <h4>丝杆</h4>
+                    <p>螺母随丝杆的转动角度按照对应规格的导程转化成直线运动</p><br>
+                    <h4>链传动</h4>
+                    <p>利用链与链轮轮齿的啮合来传递动力和运动的机械传动</p>
+
+                </div>
+
+	        </div>
+        </div>
+    
+
+<!--/方案分析-->
+	<div class="service-section" id="analysis">
+		<div class="container">
+            <h3>方案分析</h3>
+            
+			<h4><b>优缺点分析</b></h4>
+			<div class="insurance-grids">
+				<div class="col-md-6 insurance-grid">
+						<img src="../img/齿轮传动.jpg" title="齿轮传动" />
+				</div>
+				 <div class="clearfix"></div>
+            </div>
+            <br><br>
+            
+            <p>
+                    齿轮齿条传动有以下优点：<br>（1）传递动力大、效齿轮传动的特点。齿轮传动用来传递任意两轴间的运动和动力，其圆周速度可达到300m/s，传递功率可达105KW，齿轮直径可从不到1mm到150m以上，是现代机械中应用最广的一种机械传动。
+                    　　<br>（2）寿命长，工作平稳，可靠性高；
+                    　　<br>（3）能保证恒定的传动比，能传递任意夹角两轴间的运动。
+                    <br>齿轮传动主要缺点有：
+                    　　<br>（1）制造、安装精度要求较高。
+                    　　<br>（2）维修成本较高。
+                        <br>（3）无过载保护。</p>
+            
+            <div class="col-md-6 insurance-grid">
+                <img src="../img/丝杆.jpg" title="丝杆" />
+                <p>
+                    优点：<br>（1）丝杆传动的精度高。<br>
+                    （2）传动平稳无噪声。<br>
+                    （3）滑动式可自锁，无需格外的装置。<br>
+                    （4）滚珠式摩擦损失小、传动效率高。<br>
+                    缺点：<br>（1）滚珠式需制动装置。<br>
+                        （2）滑动式摩擦。<br>
+                        （3）长距离重负载下,丝杆易导致弯曲。
+
+                </p>
+
+                <img src="../img/链传动.jpg" title="链传动" />
+                <p>
+                    优点: <br>（1）无弹性滑动和打滑现象，平均传动比准确，工作可靠，效率高。
+                    <br>（2）传递功率大，过载能力强，相同工况下的传动尺寸小。
+                    缺点：<br>成本高，易磨损，易伸长，传动平稳性差，运转时会产生附加动载荷、振动、冲击和噪声，不宜用在急速反向的传动中。
+                </p>
+                </div>
+            </div>
+        </div>
+
+<!--/最终方案-->
+	<div class="service-section" id="final_plan">
+		<div class="container">
+		 <h3>最终方案</h3>
+		 <h5></h5>
+         
+         <br><br><br><h4>方案</h4>
+         <ul class="insure">
+                <li><a href="#"><i class="tick"></i></a>导轨放置于墙体，固接，角度为22度。</li>
+                <li><a href="#"><i class="tick"></i></a>站板水平且固定。</li>
+                <li><a href="#"><i class="tick"></i></a>扶手前后各一个，竖直方向高于站板1米。</li>
+                <li><a href="#"><i class="tick"></i></a>座椅为活动式，展开方向垂直于墙体，设有安全带。</li>
+                <li><a href="#"><i class="tick"></i></a>电动机安置在导轨两端，固定。</li>
+                <li><a href="#"><i class="tick"></i></a>原动机为单相无极调速电机，传动为丝杆传动。</li>
+        </ul>
+         
+
+            
+        
+        
+            </div>
+	    </div>
+
+
+<!--/组员分工-->
+<div class="service-section" id="team_work">
+		<div class="container">
+        <h3>组员分工</h3>
+        <br><br><br><br>
+        <div ><img src="images/分工.png" alt="好像没图片" style="margin-left: 25%" />
+        
+        </div>
+        
+        
+         
+         
+            
+        
+        
+            </div>
+	    </div>
+    
+
+
+
+	<!--map-->
+    <div class="map">
+	<div class="copy">
+		<p>机械课程设计第二次答辩<a target="_blank" href="http://westwine.github.io">  xxz copy right</a></p>
+	</div>
+	
+</body>
+</html>

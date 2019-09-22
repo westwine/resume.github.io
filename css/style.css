@@ -237,7 +237,7 @@ label{
   border:2px solid #bfe7cd;
 }
 .banner{
-  background: url(../images/ban.jpg) no-repeat 0px 0px;
+  background: url(../img/ban.jpg) no-repeat 0px 0px;
   background-size: cover;
   -webkit-background-size: cover;
   -o-background-size: cover;
@@ -328,16 +328,16 @@ ul.f-icons{
  float:right;
 }
 .header-right ul li a.facebook,.header-right ul li a.p,.header-right ul li a.twitter{
-	background: url(../images/icons.png) no-repeat -243px 0px;
+	background: url(../img/icons.png) no-repeat -243px 0px;
 	display:inline-block;
 	height: 30px;
 	width: 30px;
 }
 .header-right ul li a.p{
-	background: url(../images/icons.png) no-repeat -273px 0px;
+	background: url(../img/icons.png) no-repeat -273px 0px;
 }
 .header-right ul li a.twitter{
-	background: url(../images/icons.png) no-repeat -303px 0px;
+	background: url(../img/icons.png) no-repeat -303px 0px;
 }
 .header-right ul li a.facebook:hover, .header-right ul li a:hover.p, .header-right ul li a.twitter:hover {
   transform: rotateY(360deg);
@@ -353,7 +353,7 @@ ul.f-icons{
     span.menu{
 		width:35px;
 		height:35px;
-		background:url('../images/nav.png') no-repeat;
+		background:url('../img/nav.png') no-repeat;
 		display: inline-block;
 		float:left;
 		cursor: pointer;
@@ -479,7 +479,7 @@ i.s1,i.s2,i.s3,i.s4,i.s5,i.s6 {
   display: inline-block;
 }
 .service-grid:hover i.s1{
-      background: url('../images/icons.png') no-repeat 0px -60px;
+      background: url('../img/icons.png') no-repeat 0px -60px;
 }
 i.s2 {
     background: url('../images/icons.png') no-repeat -60px 0px;
@@ -555,7 +555,7 @@ ul.insure li a i {
   line-height: 1.8em;
   text-decoration: none;
   padding-left: 2em;
-  background: url(../images/tick.png) no-repeat 0px 0px;
+  background: url(../img/tick.png) no-repeat 0px 0px;
 }
 /*--news--*/
 #news {
